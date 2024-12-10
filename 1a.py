@@ -1,7 +1,5 @@
 import socket
 import threading
-
-# Функція для серверної частини
 def echo_server():
     HOST = '127.0.0.1'  # IP-адреса сервера
     PORT = 8001         # Порт сервера
