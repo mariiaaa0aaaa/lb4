@@ -45,11 +45,11 @@ def run_client():
 
 # Головна функція для вибору режиму роботи
 if __name__ == "__main__":
-    mode = input("Оберіть режим (server/client): ").strip().lower()
+    mode = input("Оберіть з'єднання (server/client): ").strip().lower()
 
     if mode == "server":
         run_server()  # Запуск серверної частини
     elif mode == "client":
         run_client()  # Запуск клієнтської частини
     else:
-        print("Неіснуючий режим. Оберіть 'server' або 'client'.")
+        print("Неіснуюче з'єднання. Оберіть 'server' або 'client'.")
